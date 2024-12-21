@@ -1,0 +1,93 @@
+
+body{
+    margin: 0;
+
+}
+.parent{
+ background-image: url(imgs/pexels-gochrisgoxyz-1477166.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+overflow: auto;
+text-align: center;
+background-position: center center;
+height: 100vh;
+}
+.headphoto img{
+    width: 10%;
+height: 30%;
+}
+
+.flowers img{
+ width:100%;
+position: relative;
+border-radius: 10%;
+transition: transform 1s ease-in,filter 0.5 ease ;
+
+}
+.cont{
+    position: relative;
+    border-radius: 10%;
+overflow: hidden;
+width: 100%;
+
+}
+
+.flowers{
+    float: left;
+    width: 22%;
+ overflow: hidden;
+margin-left: 510px;
+margin-top: 30px;
+}
+.clear-fix{
+    clear: both;
+}
+p,del{
+    font-size: 50px;
+    color: azure;
+}
+.prices{
+    padding-left: 300px;
+    font-weight: bold;
+}
+.prevprice{
+    padding-left: 420px;
+   color: rgb(138, 131, 131);
+}
+h3{
+    font-size: 130px;
+   
+}
+p{
+    font-size: 60px;
+}
+.buttons{
+  width: 430px;
+  height: 170px;
+  border-radius: 80px;
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(67, 152, 221);
+}
+.buttons:hover{
+    background-color: rgb(8, 137, 61);
+}
+.curr{
+    padding-left: 30px;
+}
+.textlayer{
+position: absolute;
+bottom: -100%;
+overflow: hidden;
+color: white;
+transition: bottom 1s ease-in-out;
+font-weight: bold;
+}
+.cont:hover .textlayer{
+bottom: 30%;
+}
+.cont:hover img{
+    transform: scale(1.2);
+    filter: brightness(30%)saturate(170%);
+}
